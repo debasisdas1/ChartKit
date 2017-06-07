@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68F4BFCA1EE79ED0002F4517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4BFC91EE79ED0002F4517 /* AppDelegate.swift */; };
+		68F4BFCC1EE79ED0002F4517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F4BFCB1EE79ED0002F4517 /* Assets.xcassets */; };
+		68F4BFCF1EE79ED0002F4517 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68F4BFCD1EE79ED0002F4517 /* MainMenu.xib */; };
+		68F4BFDA1EE79ED0002F4517 /* ChartKit_MacOSDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4BFD91EE79ED0002F4517 /* ChartKit_MacOSDemoTests.swift */; };
+		68F4BFE51EE79ED0002F4517 /* ChartKit_MacOSDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F4BFE41EE79ED0002F4517 /* ChartKit_MacOSDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68F4BFD61EE79ED0002F4517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68F4BFBE1EE79ED0002F4517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F4BFC51EE79ED0002F4517;
+			remoteInfo = "ChartKit-MacOSDemo";
+		};
+		68F4BFE11EE79ED0002F4517 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 68F4BFBE1EE79ED0002F4517 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 68F4BFC51EE79ED0002F4517;
+			remoteInfo = "ChartKit-MacOSDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		68F4BFC61EE79ED0002F4517 /* ChartKit-MacOSDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChartKit-MacOSDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F4BFC91EE79ED0002F4517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		68F4BFCB1EE79ED0002F4517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		68F4BFCE1EE79ED0002F4517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		68F4BFD01EE79ED0002F4517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F4BFD51EE79ED0002F4517 /* ChartKit-MacOSDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChartKit-MacOSDemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F4BFD91EE79ED0002F4517 /* ChartKit_MacOSDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartKit_MacOSDemoTests.swift; sourceTree = "<group>"; };
+		68F4BFDB1EE79ED0002F4517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68F4BFE01EE79ED0002F4517 /* ChartKit-MacOSDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ChartKit-MacOSDemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68F4BFE41EE79ED0002F4517 /* ChartKit_MacOSDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartKit_MacOSDemoUITests.swift; sourceTree = "<group>"; };
+		68F4BFE61EE79ED0002F4517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68F4BFC31EE79ED0002F4517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F4BFD21EE79ED0002F4517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F4BFDD1EE79ED0002F4517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68F4BFBD1EE79ED0002F4517 = {
+			isa = PBXGroup;
+			children = (
+				68F4BFC81EE79ED0002F4517 /* ChartKit-MacOSDemo */,
+				68F4BFD81EE79ED0002F4517 /* ChartKit-MacOSDemoTests */,
+				68F4BFE31EE79ED0002F4517 /* ChartKit-MacOSDemoUITests */,
+				68F4BFC71EE79ED0002F4517 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68F4BFC71EE79ED0002F4517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68F4BFC61EE79ED0002F4517 /* ChartKit-MacOSDemo.app */,
+				68F4BFD51EE79ED0002F4517 /* ChartKit-MacOSDemoTests.xctest */,
+				68F4BFE01EE79ED0002F4517 /* ChartKit-MacOSDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68F4BFC81EE79ED0002F4517 /* ChartKit-MacOSDemo */ = {
+			isa = PBXGroup;
+			children = (
+				68F4BFC91EE79ED0002F4517 /* AppDelegate.swift */,
+				68F4BFCB1EE79ED0002F4517 /* Assets.xcassets */,
+				68F4BFCD1EE79ED0002F4517 /* MainMenu.xib */,
+				68F4BFD01EE79ED0002F4517 /* Info.plist */,
+			);
+			path = "ChartKit-MacOSDemo";
+			sourceTree = "<group>";
+		};
+		68F4BFD81EE79ED0002F4517 /* ChartKit-MacOSDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				68F4BFD91EE79ED0002F4517 /* ChartKit_MacOSDemoTests.swift */,
+				68F4BFDB1EE79ED0002F4517 /* Info.plist */,
+			);
+			path = "ChartKit-MacOSDemoTests";
+			sourceTree = "<group>";
+		};
+		68F4BFE31EE79ED0002F4517 /* ChartKit-MacOSDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				68F4BFE41EE79ED0002F4517 /* ChartKit_MacOSDemoUITests.swift */,
+				68F4BFE61EE79ED0002F4517 /* Info.plist */,
+			);
+			path = "ChartKit-MacOSDemoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68F4BFC51EE79ED0002F4517 /* ChartKit-MacOSDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F4BFE91EE79ED0002F4517 /* Build configuration list for PBXNativeTarget "ChartKit-MacOSDemo" */;
+			buildPhases = (
+				68F4BFC21EE79ED0002F4517 /* Sources */,
+				68F4BFC31EE79ED0002F4517 /* Frameworks */,
+				68F4BFC41EE79ED0002F4517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChartKit-MacOSDemo";
+			productName = "ChartKit-MacOSDemo";
+			productReference = 68F4BFC61EE79ED0002F4517 /* ChartKit-MacOSDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		68F4BFD41EE79ED0002F4517 /* ChartKit-MacOSDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F4BFEC1EE79ED0002F4517 /* Build configuration list for PBXNativeTarget "ChartKit-MacOSDemoTests" */;
+			buildPhases = (
+				68F4BFD11EE79ED0002F4517 /* Sources */,
+				68F4BFD21EE79ED0002F4517 /* Frameworks */,
+				68F4BFD31EE79ED0002F4517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68F4BFD71EE79ED0002F4517 /* PBXTargetDependency */,
+			);
+			name = "ChartKit-MacOSDemoTests";
+			productName = "ChartKit-MacOSDemoTests";
+			productReference = 68F4BFD51EE79ED0002F4517 /* ChartKit-MacOSDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		68F4BFDF1EE79ED0002F4517 /* ChartKit-MacOSDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68F4BFEF1EE79ED0002F4517 /* Build configuration list for PBXNativeTarget "ChartKit-MacOSDemoUITests" */;
+			buildPhases = (
+				68F4BFDC1EE79ED0002F4517 /* Sources */,
+				68F4BFDD1EE79ED0002F4517 /* Frameworks */,
+				68F4BFDE1EE79ED0002F4517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				68F4BFE21EE79ED0002F4517 /* PBXTargetDependency */,
+			);
+			name = "ChartKit-MacOSDemoUITests";
+			productName = "ChartKit-MacOSDemoUITests";
+			productReference = 68F4BFE01EE79ED0002F4517 /* ChartKit-MacOSDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68F4BFBE1EE79ED0002F4517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Knowstack;
+				TargetAttributes = {
+					68F4BFC51EE79ED0002F4517 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					68F4BFD41EE79ED0002F4517 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68F4BFC51EE79ED0002F4517;
+					};
+					68F4BFDF1EE79ED0002F4517 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 68F4BFC51EE79ED0002F4517;
+					};
+				};
+			};
+			buildConfigurationList = 68F4BFC11EE79ED0002F4517 /* Build configuration list for PBXProject "ChartKit-MacOSDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68F4BFBD1EE79ED0002F4517;
+			productRefGroup = 68F4BFC71EE79ED0002F4517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68F4BFC51EE79ED0002F4517 /* ChartKit-MacOSDemo */,
+				68F4BFD41EE79ED0002F4517 /* ChartKit-MacOSDemoTests */,
+				68F4BFDF1EE79ED0002F4517 /* ChartKit-MacOSDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68F4BFC41EE79ED0002F4517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F4BFCC1EE79ED0002F4517 /* Assets.xcassets in Resources */,
+				68F4BFCF1EE79ED0002F4517 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F4BFD31EE79ED0002F4517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F4BFDE1EE79ED0002F4517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68F4BFC21EE79ED0002F4517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F4BFCA1EE79ED0002F4517 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F4BFD11EE79ED0002F4517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F4BFDA1EE79ED0002F4517 /* ChartKit_MacOSDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		68F4BFDC1EE79ED0002F4517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68F4BFE51EE79ED0002F4517 /* ChartKit_MacOSDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		68F4BFD71EE79ED0002F4517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68F4BFC51EE79ED0002F4517 /* ChartKit-MacOSDemo */;
+			targetProxy = 68F4BFD61EE79ED0002F4517 /* PBXContainerItemProxy */;
+		};
+		68F4BFE21EE79ED0002F4517 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 68F4BFC51EE79ED0002F4517 /* ChartKit-MacOSDemo */;
+			targetProxy = 68F4BFE11EE79ED0002F4517 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		68F4BFCD1EE79ED0002F4517 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68F4BFCE1EE79ED0002F4517 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68F4BFE71EE79ED0002F4517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		68F4BFE81EE79ED0002F4517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		68F4BFEA1EE79ED0002F4517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ChartKit-MacOSDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KS.ChartKit-MacOSDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		68F4BFEB1EE79ED0002F4517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ChartKit-MacOSDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KS.ChartKit-MacOSDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		68F4BFED1EE79ED0002F4517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ChartKit-MacOSDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KS.ChartKit-MacOSDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartKit-MacOSDemo.app/Contents/MacOS/ChartKit-MacOSDemo";
+			};
+			name = Debug;
+		};
+		68F4BFEE1EE79ED0002F4517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ChartKit-MacOSDemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KS.ChartKit-MacOSDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartKit-MacOSDemo.app/Contents/MacOS/ChartKit-MacOSDemo";
+			};
+			name = Release;
+		};
+		68F4BFF01EE79ED0002F4517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ChartKit-MacOSDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KS.ChartKit-MacOSDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ChartKit-MacOSDemo";
+			};
+			name = Debug;
+		};
+		68F4BFF11EE79ED0002F4517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "ChartKit-MacOSDemoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KS.ChartKit-MacOSDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "ChartKit-MacOSDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68F4BFC11EE79ED0002F4517 /* Build configuration list for PBXProject "ChartKit-MacOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F4BFE71EE79ED0002F4517 /* Debug */,
+				68F4BFE81EE79ED0002F4517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68F4BFE91EE79ED0002F4517 /* Build configuration list for PBXNativeTarget "ChartKit-MacOSDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F4BFEA1EE79ED0002F4517 /* Debug */,
+				68F4BFEB1EE79ED0002F4517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68F4BFEC1EE79ED0002F4517 /* Build configuration list for PBXNativeTarget "ChartKit-MacOSDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F4BFED1EE79ED0002F4517 /* Debug */,
+				68F4BFEE1EE79ED0002F4517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		68F4BFEF1EE79ED0002F4517 /* Build configuration list for PBXNativeTarget "ChartKit-MacOSDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68F4BFF01EE79ED0002F4517 /* Debug */,
+				68F4BFF11EE79ED0002F4517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68F4BFBE1EE79ED0002F4517 /* Project object */;
+}
